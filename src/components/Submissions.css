@@ -1,0 +1,71 @@
+.submissions-container {
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .submissions-header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .submissions-title {
+    font-size: 14px;
+    background-color: #f77b4c;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .submissions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .submission-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .submission-name {
+    font-size: 12px;
+  }
+  
+  .submission-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .show-all {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .show-all-button {
+    background-color: #f77b4c;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .show-all-button:hover {
+    background-color: #f5612b;
+  }
+  
